@@ -1,0 +1,9 @@
+.App {
+  text-align: center;
+}
+.App ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
