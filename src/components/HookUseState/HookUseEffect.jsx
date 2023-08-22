@@ -12,6 +12,12 @@ const HookUseEffect = () => {
     const changeSomething = () => {
         setNumber(aterior => aterior + 1)
     }
+
+    // 2 - ARRAY DE DEPENDENCIAS VAZIO
+    useEffect(() => {
+        //EXECULTA SOMENTE UMA VEZ
+        console.log("useEffect: SEREI EXECULTADO SOMENTE UMA VEZ")
+    },[])
     return(
         <div>
             <h2>useEffect</h2>
