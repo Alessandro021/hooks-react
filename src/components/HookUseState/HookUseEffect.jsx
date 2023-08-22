@@ -32,11 +32,11 @@ const HookUseEffect = () => {
     // 4 - CLEANUP NO USEEFFECT
 
     useEffect(() => {
-        const timer = setTimeout(() =>{ 
-            console.log("useEffet: execultando o SETTIMEOUT 🕐4️⃣")
-            setAnotherNumber(anterior => anterior + 1)
-        }, 2000 )
-        return () => clearTimeout(timer)
+        // const timer = setTimeout(() =>{ 
+        //     console.log("useEffet: execultando o SETTIMEOUT 🕐4️⃣")
+        //     setAnotherNumber(anterior => anterior + 1)
+        // }, 2000 )
+        // return () => clearTimeout(timer)
     },[anotherNumber])
 
     return(
